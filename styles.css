@@ -1,0 +1,21 @@
+* {
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  -ms-user-select: none;
+
+  cursor: default;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
+  width: 75vw;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+}
